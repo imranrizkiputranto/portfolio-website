@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+
+    .time {
+        p {
+            font-size: 0.8rem;
+        }
+    }
+
+    .content {
+        max-width: 450px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+
+        h3 {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 955px) {
+    .container {
+        
+        .content {
+            max-width: 400px;
+        }
+    }
+}
+
+@media only screen and (max-width: 876px) {
+    .container {
+
+        p {
+            font-size: 0.75rem;
+        }
+        
+        .content {
+            max-width: 320px;
+
+            p {
+                font-size: 0.75rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container {
+        flex-direction: column;
+
+        .content {
+            max-width: 100%;
+            padding-left: 0;
+            padding-top: 0.5rem;
+
+        }
+    }
+
+}

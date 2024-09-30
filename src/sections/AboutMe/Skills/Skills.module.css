@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Ensure that skill sections wrap properly */
+    gap: 2rem; /* Add gap between skill categories */
+    max-width: 100%; /* Ensure it takes full available width */
+
+    .skillsContainer {
+
+        text-align: left;
+        
+        h3 {
+            font-size: 1rem;
+            text-transform: uppercase;
+            padding-bottom: 1rem;
+        }
+    }
+
+    .skillList {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem; /* Add space between skill list items */
+        
+        p {
+            font-size: 0.85rem;
+        }
+    }
+}
+

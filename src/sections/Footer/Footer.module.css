@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    margin-bottom: 2rem;
+    width: 90dvw;
+    justify-content: center;
+
+
+    p {
+        font-size: 0.75rem;
+        color: var(--footer-text-color);
+        max-width: 300px;
+        font-weight: bold;
+    }
+
+    a {
+        color: var(--text-color);
+        text-decoration: none;
+    }
+}

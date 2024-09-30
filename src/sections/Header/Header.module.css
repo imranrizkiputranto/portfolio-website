@@ -1,0 +1,28 @@
+.container {
+    margin-top: 1.5rem;
+    padding-right: 1rem;
+}
+
+.colorModeContainer {
+    position: relative;
+}
+
+.colorMode {
+    position: absolute;
+    right: 0; /* Pushes button to right most side of container */
+    width: 25px;
+    background-color: var(--base-variant);
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: transform 200ms ease-in-out;
+}
+
+.colorMode:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+
+.colorMode:active {
+    transform: translateY(2px);
+}
