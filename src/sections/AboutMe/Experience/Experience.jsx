@@ -12,7 +12,7 @@ function Experience() {
             <ExperienceCards 
                 time={'October 2024 - Present'} 
                 company={'PT eBDesk Teknologi'} 
-                position={'AI Research'} 
+                position={'AI Researcher'} 
                 summary={"Built AI agents and chatbots for various clients using the LangChain framework in Python. "}
             />
         </div>
