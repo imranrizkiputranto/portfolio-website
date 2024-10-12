@@ -10,6 +10,16 @@ function Experience() {
 
         <div className={styles.experienceCard}>
             <ExperienceCards 
+                time={'October 2024 - Present'} 
+                company={'PT eBDesk Teknologi'} 
+                position={'AI Research'} 
+                summary={""}
+            />
+        </div>
+
+
+        <div className={styles.experienceCard}>
+            <ExperienceCards 
                 time={'Jul - Aug 2022'} 
                 company={'Star Energy Geothermal'} 
                 position={'Engineering Intern'} 
