@@ -21,13 +21,14 @@ function Skills() {
       <div className={styles.skillsContainer}>
         <h3>Libraries</h3>
         <div className={styles.skillList}>
-          <SkillList skill='React' />
-          <SkillList skill='Redux' />
+          <SkillList skill='Scikit-Learn' />
+          <SkillList skill='LangChain' />
           <SkillList skill='Numpy' />
           <SkillList skill='Pandas' />
           <SkillList skill='Matplotlib' />
           <SkillList skill='Seaborn' />
-          <SkillList skill='Scikit-Learn' />
+          <SkillList skill='React' />
+          <SkillList skill='Redux' />
         </div>
       </div>
           
