@@ -9,11 +9,11 @@ function Skills() {
       <div className={styles.skillsContainer}>
         <h3>Languages</h3>
         <div className={styles.skillList}>
+          <SkillList skill='Python' />
+          <SkillList skill='SQL' />
           <SkillList skill='HTML' />
           <SkillList skill='CSS' />
           <SkillList skill='JavaScript' />
-          <SkillList skill='Python' />
-          <SkillList skill='SQL' />
           <SkillList skill='MatLab' />
         </div>
       </div>
@@ -22,11 +22,11 @@ function Skills() {
         <h3>Libraries</h3>
         <div className={styles.skillList}>
           <SkillList skill='Scikit-Learn' />
+          <SkillList skill='PyTorch' />
           <SkillList skill='LangChain' />
           <SkillList skill='Numpy' />
           <SkillList skill='Pandas' />
-          <SkillList skill='Matplotlib' />
-          <SkillList skill='Seaborn' />
+          <SkillList skill='Matplotlib & Seaborn' />
           <SkillList skill='React' />
           <SkillList skill='Redux' />
         </div>
@@ -35,7 +35,10 @@ function Skills() {
       <div className={styles.skillsContainer}>
         <h3>Tools</h3>
         <div className={styles.skillList}>
-          <SkillList skill='Git & Github' />
+          <SkillList skill='Git, Github & GitLab' />
+          <SkillList skill='PostgreSQL' />
+          <SkillList skill='ElasticSearch' />
+          <SkillList skill='Qdrant' />
           <SkillList skill='Chrome DevTools' />
           <SkillList skill='Excel' />
           <SkillList skill='Tableau' />

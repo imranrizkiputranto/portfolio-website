@@ -42,9 +42,9 @@ function Hero() {
   
         <div className={styles.info}> {/* section for the credentials and resume (LHS) */}
           <h1>Imran Rizki Putranto</h1>
-          <h2>Aspiring Data Scientist & Web Developer</h2>
+          <h2>AI Researcher</h2>
           <p className={styles.description}>
-            With a passion for generating data-driven insights as well as developing modern web apps for commericial businesses.
+            Passionate about transforming data into impactful AI solutions and innovating through data science and generative AI.
           </p>
           
           {/* Button for resume */}

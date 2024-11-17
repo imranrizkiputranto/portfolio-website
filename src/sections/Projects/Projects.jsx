@@ -7,7 +7,7 @@ function Projects() {
     <section id='projects' className={styles.container}>
       
       <div className={styles.projectsTitle}>
-        <h3 className='sectionTitle'>Projects</h3>
+        <h3 className='sectionTitle'>Personal Projects</h3>
       </div>
 
       <div className={styles.projectsContainer}>

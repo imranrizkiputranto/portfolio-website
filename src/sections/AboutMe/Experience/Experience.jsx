@@ -10,10 +10,10 @@ function Experience() {
 
         <div className={styles.experienceCard}>
             <ExperienceCards 
-                time={'October 2024 - Present'} 
-                company={'PT eBDesk Teknologi'} 
+                time={'Oct 2024 - Present'} 
+                company={'Indonesia Indicator'} 
                 position={'AI Researcher'} 
-                summary={"Built AI agents and chatbots for various clients using the LangChain framework in Python. "}
+                summary={"Developed AI solutions using LLMs integrated with vector databases and search engines, enhancing data retrieval and decision support for high-stakes government initiatives, ensuring smooth and secure execution of upcoming national events. "}
             />
         </div>
 
